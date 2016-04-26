@@ -22,7 +22,7 @@ module QueryParam =
     let decodeQueryParamValue (value:string) =
         // Uri.UnescapeDataString comes closest to doing it right, but famously stumbles on the + sign
         // http://weblog.west-wind.com/posts/2009/Feb/05/Html-and-Uri-String-Encoding-without-SystemWeb
-        Uri.UnescapeDataString(value.Replace("+", " "));
+        Uri.UnescapeDataString(value.Replace("+", " "))
 
     /// <summary>
     /// Parses a query string from a URL to a QueryParamCollection dictionary.
@@ -61,8 +61,8 @@ module FSharp =
     /// <returns></returns>
     let private cleanSegment (segment:string) =
         // http://stackoverflow.com/questions/4669692/valid-characters-for-directory-part-of-a-url-for-short-links
-        let  unescaped = Uri.UnescapeDataString(segment);
-        Uri.EscapeUriString(unescaped).Replace("?", "%3F");
+        let  unescaped = Uri.UnescapeDataString(segment)
+        Uri.EscapeUriString(unescaped).Replace("?", "%3F")
 
 
     /// <summary>

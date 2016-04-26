@@ -1,0 +1,25 @@
+type project
+title
+    FlurlFs
+owners
+    Jon Roberts
+authors 
+    Jon Roberts
+projectUrl
+    http://github.com/bigjonroberts/FlurlFs
+iconUrl
+    https://raw.githubusercontent.com/bigjonroberts/FlurlFs/master/docs/files/img/logo.png
+licenseUrl
+    http://github.com/bigjonroberts/FlurlFs/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    url uri fsharp
+summary
+    F# Implementation of Flurl URL Builder
+description
+    F# Implementation of Flurl URL Builder
+
+

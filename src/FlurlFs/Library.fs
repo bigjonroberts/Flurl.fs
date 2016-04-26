@@ -1,4 +1,4 @@
-﻿namespace FSharp.ProjectTemplate
+namespace FlurlFs
 
 /// Documentation for my library
 ///

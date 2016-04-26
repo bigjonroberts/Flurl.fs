@@ -1,6 +1,6 @@
-﻿module FSharp.ProjectScaffold.Tests
+module FlurlFs.Tests
 
-open FSharp.ProjectTemplate
+open FlurlFs
 open NUnit.Framework
 
 [<Test>]

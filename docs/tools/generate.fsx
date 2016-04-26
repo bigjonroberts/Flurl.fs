@@ -11,17 +11,17 @@
 // (This is the original behaviour of ProjectScaffold prior to multi project support)
 let referenceBinaries = []
 // Web site location for the generated documentation
-let website = "/##ProjectName##"
+let website = "/FlurlFs"
 
-let githubLink = "http://github.com/##GitHome##/##GitName##"
+let githubLink = "http://github.com/bigjonroberts/Flurl.fs"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "##ProjectName##"
-    "project-author", "##Author##"
-    "project-summary", "##Summary##"
+  [ "project-name", "FlurlFs"
+    "project-author", "Jon Roberts"
+    "project-summary", "F# Implementation of Flurl URL Builder"
     "project-github", githubLink
-    "project-nuget", "http://nuget.org/packages/##ProjectName##" ]
+    "project-nuget", "http://nuget.org/packages/FlurlFs" ]
 
 // --------------------------------------------------------------------------------------
 // For typical project, no changes are needed below
